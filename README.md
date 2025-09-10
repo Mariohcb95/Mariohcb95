@@ -125,7 +125,7 @@ Me chamo Mário Henrique, tenho 24 anos e sou natural do Goiás. Atualmente esto
     alt="GitHub Stats" 
     height="200" 
     style="padding-right: 10px;" 
-    src="https://github-readme-stats.vercel.app/api?username=mariohcb95&show_icons=true&theme=tokyonight&locale=pt_br" 
+    src="https://github-readme-stats.vercel.app/api?username=mariohcb95&show_icons=true&theme=tokyonight&locale=pt-br" 
   />
 
 <img 
