@@ -11,9 +11,6 @@
   <a href="https://github.com/Mariohcb95?tab=repositories&sort=stargazers">
     <img alt="Total de estrelas" title="Total de estrelas no GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Mariohcb95?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=Estrelas" />
   </a>
-  <a href="https://www.linkedin.com/in/seu-perfil/" target="_blank">
-    <img alt="LinkedIn" title="Meu LinkedIn" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
-  </a>
 </p>
 
 ---
@@ -103,7 +100,7 @@ Se quiser, você também pode trocar esta seção por cards de repositórios fix
 ## 📫 Contato
 
 <p align="left">
-  <a href="https://www.linkedin.com/in/seu-perfil/" target="_blank">
+  <a href="https://www.linkedin.com/in/m%C3%A1rio-henrique-6a235b160/" target="_blank">
     <img alt="LinkedIn" title="Meu LinkedIn" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
   </a>
 </p>
