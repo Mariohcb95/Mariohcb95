@@ -1,7 +1,7 @@
 # 👨🏻‍💻 Mário Henrique
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=650&lines=Desenvolvedor+Web+J%C3%BAnior;C%23+%7C+.NET+%7C+Web+Forms+%7C+jQuery+%7C+PostgreSQL;Sempre+aprendendo+e+construindo+solu%C3%A7%C3%B5es+reais" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=650&lines=Desenvolvedor+Web+Pleno;C%23+%7C+.NET+%7C+Web+Forms+%7C+jQuery+%7C+PostgreSQL;Sempre+aprendendo+e+construindo+solu%C3%A7%C3%B5es+reais" alt="Typing SVG" />
 </p>
 
 <p align="center">
