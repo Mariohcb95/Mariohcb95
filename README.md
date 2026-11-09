@@ -11,7 +11,6 @@
   <a href="https://github.com/Mariohcb95/sales-green">
     <img alt="Projeto em destaque" src="https://img.shields.io/badge/Portf%C3%B3lio-SalesGreen-2EA043?style=for-the-badge&logo=dotnet&logoColor=white" />
   </a>
-  <img alt="Aberto a oportunidades" src="https://img.shields.io/badge/Aberto%20a-oportunidades-F2C811?style=for-the-badge" />
 </p>
 
 ---
@@ -24,7 +23,6 @@ No dia a dia trabalho com **sistemas em produção**: evoluo e mantenho aplicaç
 
 Fora do trabalho, construo projetos com **.NET moderno** para aplicar arquitetura de verdade: microsserviços, mensageria, testes automatizados e CI/CD.
 
-- 🎯 **Busco:** oportunidades como **Desenvolvedor Back-end .NET** (remoto ou Goiânia/GO)
 - 🧩 **Gosto de:** regras de negócio complexas, integrações e domínio **fiscal/varejo** (NF-e, reforma tributária IBS/CBS)
 - 📚 **Aprendendo agora:** arquitetura distribuída, observabilidade e mensageria em escala
 
@@ -115,9 +113,9 @@ docker compose up --build -d   # sobe tudo: 5 APIs + PostgreSQL + RabbitMQ + Cas
 
 ---
 
-## 📫 Vamos conversar?
+## 📫 Contato
 
-Estou aberto a propostas para vagas de **Desenvolvedor Back-end .NET**. O jeito mais rápido de falar comigo é pelo LinkedIn:
+Quer trocar uma ideia sobre .NET, arquitetura ou algum dos meus projetos? Me chama no LinkedIn:
 
 <p align="left">
   <a href="https://www.linkedin.com/in/m%C3%A1rio-henrique-6a235b160/" target="_blank">
