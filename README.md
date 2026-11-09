@@ -23,7 +23,7 @@ No dia a dia trabalho com **sistemas em produção**: evoluo e mantenho aplicaç
 
 Nas horas livres, gosto de explorar o ecossistema **.NET moderno** em projetos pessoais, praticando microsserviços, mensageria, testes automatizados e CI/CD.
 
-- 🧩 **Gosto de:** regras de negócio complexas, integrações e domínio **fiscal/varejo** (NF-e, reforma tributária IBS/CBS)
+- 🧩 **Gosto de:** criar soluções para problemas reais, transformar tarefas repetitivas em automações e trabalhar com processos bem estruturados
 - 📚 **Aprendendo agora:** arquitetura distribuída, observabilidade e mensageria em escala
 
 ---
