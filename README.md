@@ -21,7 +21,7 @@ Sou **Desenvolvedor Web Pleno** focado em **back-end com C# e .NET**, estudante 
 
 No dia a dia trabalho com **sistemas em produção**: evoluo e mantenho aplicações .NET (incluindo legado em Web Forms), integro plataformas, modelo e otimizo bancos **PostgreSQL** e resolvo problemas de ponta a ponta — do banco ao front-end com jQuery/AJAX.
 
-Fora do trabalho, construo projetos com **.NET moderno** para aplicar arquitetura de verdade: microsserviços, mensageria, testes automatizados e CI/CD.
+Nas horas livres, gosto de explorar o ecossistema **.NET moderno** em projetos pessoais, praticando microsserviços, mensageria, testes automatizados e CI/CD.
 
 - 🧩 **Gosto de:** regras de negócio complexas, integrações e domínio **fiscal/varejo** (NF-e, reforma tributária IBS/CBS)
 - 📚 **Aprendendo agora:** arquitetura distribuída, observabilidade e mensageria em escala
