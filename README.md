@@ -1,112 +1,126 @@
-# 👨🏻‍💻 Mário Henrique
+<h1 align="center">Olá, eu sou o Mário Henrique 👋</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=650&lines=Desenvolvedor+Web+Pleno;C%23+%7C+.NET+%7C+Web+Forms+%7C+jQuery+%7C+PostgreSQL;Sempre+aprendendo+e+construindo+solu%C3%A7%C3%B5es+reais" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&pause=1000&color=2EA043&center=true&vCenter=true&width=700&lines=Desenvolvedor+Back-end+.NET+Pleno;C%23+%7C+.NET+%7C+PostgreSQL+%7C+RabbitMQ+%7C+Docker;Microsservi%C3%A7os%2C+DDD+e+Clean+Architecture" alt="Desenvolvedor Back-end .NET Pleno" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/Mariohcb95?tab=followers">
-    <img alt="Seguidores" title="Me siga no GitHub" src="https://custom-icon-badges.demolab.com/github/followers/Mariohcb95?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=github&label=Seguidores&logoColor=white" />
+  <a href="https://www.linkedin.com/in/m%C3%A1rio-henrique-6a235b160/" target="_blank">
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Conectar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-  <a href="https://github.com/Mariohcb95?tab=repositories&sort=stargazers">
-    <img alt="Total de estrelas" title="Total de estrelas no GitHub" src="https://custom-icon-badges.demolab.com/github/stars/Mariohcb95?color=55960c&style=for-the-badge&labelColor=488207&logo=star&label=Estrelas" />
+  <a href="https://github.com/Mariohcb95/sales-green">
+    <img alt="Projeto em destaque" src="https://img.shields.io/badge/Portf%C3%B3lio-SalesGreen-2EA043?style=for-the-badge&logo=dotnet&logoColor=white" />
   </a>
+  <img alt="Aberto a oportunidades" src="https://img.shields.io/badge/Aberto%20a-oportunidades-F2C811?style=for-the-badge" />
 </p>
 
 ---
 
 ## 🚀 Sobre mim
 
-Olá! Me chamo **Mário Henrique** e sou **Desenvolvedor Web Júnior**.
+Sou **Desenvolvedor Web Pleno** focado em **back-end com C# e .NET**, estudante de **Sistemas de Informação no IFG – Campus Goiânia**.
 
-Atualmente curso **Sistemas de Informação no IFG - Campus Goiânia** e venho construindo minha experiência com foco em desenvolvimento web, manutenção de sistemas legados, integração entre plataformas e melhoria contínua de soluções usadas no dia a dia.
+No dia a dia trabalho com **sistemas em produção**: evoluo e mantenho aplicações .NET (incluindo legado em Web Forms), integro plataformas, modelo e otimizo bancos **PostgreSQL** e resolvo problemas de ponta a ponta — do banco ao front-end com jQuery/AJAX.
 
-Hoje trabalho principalmente com:
+Fora do trabalho, construo projetos com **.NET moderno** para aplicar arquitetura de verdade: microsserviços, mensageria, testes automatizados e CI/CD.
 
-- **C# e .NET**
-- **Web Forms**
-- **jQuery e AJAX**
-- **PostgreSQL**
-- **Manutenção de frontend e backend**
-- **Correção de problemas e evolução de sistemas**
-
-Tenho interesse em continuar evoluindo como desenvolvedor, aprofundando meus conhecimentos em **.NET moderno**, **arquitetura de software**, **boas práticas de backend** e **interfaces web mais modernas**.
+- 🎯 **Busco:** oportunidades como **Desenvolvedor Back-end .NET** (remoto ou Goiânia/GO)
+- 🧩 **Gosto de:** regras de negócio complexas, integrações e domínio **fiscal/varejo** (NF-e, reforma tributária IBS/CBS)
+- 📚 **Aprendendo agora:** arquitetura distribuída, observabilidade e mensageria em escala
 
 ---
 
-## 💼 Foco profissional
+## ⭐ Projeto em destaque — [SalesGreen](https://github.com/Mariohcb95/sales-green)
 
-- Evoluir na stack **C# / .NET**
-- Participar de projetos com impacto real no negócio
-- Aprimorar habilidades em **backend**, **banco de dados** e **integrações**
-- Fortalecer conhecimentos em **arquitetura**, **APIs** e **boas práticas de desenvolvimento**
+[![CI](https://github.com/Mariohcb95/sales-green/actions/workflows/ci.yml/badge.svg)](https://github.com/Mariohcb95/sales-green/actions/workflows/ci.yml)
+![.NET 10](https://img.shields.io/badge/.NET-10-512BD4?logo=dotnet&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-4169E1?logo=postgresql&logoColor=white)
+![RabbitMQ](https://img.shields.io/badge/RabbitMQ-MassTransit-FF6600?logo=rabbitmq&logoColor=white)
+![Cassandra](https://img.shields.io/badge/Cassandra-5-1287B1?logo=apachecassandra&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Compose-2496ED?logo=docker&logoColor=white)
 
----
+**Backend de varejo (mercados e hortifrútis) em microsserviços .NET 10** — catálogo com importação de planilhas, pedidos, estoque com lotes e validade, faturamento com **motor tributário preparado para IBS/CBS** e projeção analítica de risco de ruptura.
 
-## 🤖 Tecnologias e ferramentas
+| O que o projeto demonstra | Como |
+|---|---|
+| 🏗️ **Arquitetura** | 5 microsserviços independentes, **DDD** + **Clean Architecture**, um banco por serviço |
+| 🔁 **Consistência distribuída** | **Saga orquestrada** com compensação, **Outbox/Inbox**, consumidores idempotentes, retry e DLQ |
+| 📦 **Regra de negócio real** | Reserva de estoque por **FEFO** (lote que vence primeiro), concorrência otimista, preço vigente vindo do catálogo |
+| 🧾 **Domínio fiscal** | Motor tributário no domínio, pronto para a transição da reforma tributária (IBS/CBS) |
+| 🛡️ **Resiliência e observabilidade** | **Polly** (timeout, retry com jitter, circuit breaker), Serilog estruturado, health checks, ProblemDetails |
+| ✅ **Qualidade** | **71 testes** (xUnit, MassTransit Test Harness, **Testcontainers** com PostgreSQL e RabbitMQ reais) |
+| 🚢 **Entrega** | Docker multi-stage não-root, Docker Compose, **GitHub Actions** + **SonarCloud** |
+| 📝 **Decisões documentadas** | **12 ADRs** explicando o porquê de cada escolha técnica |
 
-<p align="left">
-  <img alt="HTML" title="HTML" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-  <img alt="CSS" title="CSS" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-  <img alt="JavaScript" title="JavaScript" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-  <img alt="TypeScript" title="TypeScript" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-  <img alt="React" title="React" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-  <img alt="C#" title="C#" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
-  <img alt="Dotnet" title=".NET" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" />
-  <img alt="Bootstrap" title="Bootstrap" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
-  <img alt="jQuery" title="jQuery" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" />
-  <img alt="PostgreSQL" title="PostgreSQL" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
-  <img alt="Git" title="Git" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-  <img alt="Python" title="Python" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
-  <img alt="Java" title="Java" width="36px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+```bash
+git clone https://github.com/Mariohcb95/sales-green.git && cd sales-green
+docker compose up --build -d   # sobe tudo: 5 APIs + PostgreSQL + RabbitMQ + Cassandra
+./scripts/demo.sh              # roda o fluxo completo de ponta a ponta
+```
+
+<p align="center">
+  <a href="https://github.com/Mariohcb95/sales-green"><b>➡️ Ver o código, a arquitetura e os ADRs</b></a>
 </p>
+
+---
+
+## 📂 Outros projetos
+
+| Projeto | Descrição | Stack |
+|---|---|---|
+| [scraping](https://github.com/Mariohcb95/scraping) | Scraping para obter o HTML do site da Receita Federal | Python |
+| [solve-simplex](https://github.com/Mariohcb95/solve-simplex) | Resolução de problemas de Pesquisa Operacional (Simplex) com PuLP | Python |
+| **EconoMax** *(privado, em desenvolvimento)* | Produto voltado à economia no varejo, construído sobre a base do SalesGreen | .NET |
+
+---
+
+## 🛠️ Stack
+
+**Back-end**<br/>
+<img alt="C#" title="C#" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+<img alt=".NET" title=".NET" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dot-net/dot-net-original.svg" />
+<img alt="Python" title="Python" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+<img alt="Java" title="Java" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" />
+
+**Dados e mensageria**<br/>
+<img alt="PostgreSQL" title="PostgreSQL" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" />
+<img alt="Cassandra" title="Apache Cassandra" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg" />
+<img alt="RabbitMQ" title="RabbitMQ" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rabbitmq/rabbitmq-original.svg" />
+
+**DevOps e qualidade**<br/>
+<img alt="Docker" title="Docker" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg" />
+<img alt="GitHub Actions" title="GitHub Actions" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/githubactions/githubactions-original.svg" />
+<img alt="SonarQube" title="SonarCloud" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sonarqube/sonarqube-original.svg" />
+<img alt="Git" title="Git" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+
+**Front-end**<br/>
+<img alt="JavaScript" title="JavaScript" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
+<img alt="TypeScript" title="TypeScript" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
+<img alt="React" title="React" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
+<img alt="jQuery" title="jQuery" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg" />
+<img alt="HTML" title="HTML" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+<img alt="CSS" title="CSS" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
+<img alt="Bootstrap" title="Bootstrap" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/bootstrap/bootstrap-original.svg" />
+
+**Práticas:** DDD · Clean Architecture · SOLID · Microsserviços · Saga · Outbox Pattern · APIs REST · Testes automatizados · CI/CD
 
 ---
 
 ## 📊 Estatísticas
 
 <p align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mariohcb95&theme=tokyonight" alt="GitHub Stats" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Mariohcb95&theme=tokyonight" alt="Repos por linguagem" />
-</p>
-
-<p align="center">
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mariohcb95&theme=tokyonight" alt="Linguagem com mais commits" />
-  <img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Mariohcb95&theme=tokyonight&utcOffset=-3" alt="Horário produtivo" />
+  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mariohcb95&theme=github_dark" alt="Estatísticas do GitHub" />
+  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mariohcb95&theme=github_dark" alt="Linguagens com mais commits" />
 </p>
 
 ---
 
-## 📌 Projetos em destaque
+## 📫 Vamos conversar?
 
-- **Projeto 1** — breve descrição do problema resolvido e tecnologias usadas
-- **Projeto 2** — destaque para integração, backend, frontend ou banco de dados
-- **Projeto 3** — projeto acadêmico, pessoal ou profissional com aprendizado relevante
-
-Se quiser, você também pode trocar esta seção por cards de repositórios fixados.
-
----
-
-## 📚 Atualmente estudando
-
-- .NET e ecossistema moderno
-- APIs REST e boas práticas de backend
-- Banco de dados e modelagem
-- Arquitetura de software
-- React / interfaces modernas
-
----
-
-## 📫 Contato
+Estou aberto a propostas para vagas de **Desenvolvedor Back-end .NET**. O jeito mais rápido de falar comigo é pelo LinkedIn:
 
 <p align="left">
   <a href="https://www.linkedin.com/in/m%C3%A1rio-henrique-6a235b160/" target="_blank">
-    <img alt="LinkedIn" title="Meu LinkedIn" width="40px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" />
+    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-M%C3%A1rio%20Henrique-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-</p>
-
----
-
-<p align="center">
-  Obrigado por visitar meu perfil! 🚀
 </p>
