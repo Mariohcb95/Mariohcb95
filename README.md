@@ -141,7 +141,11 @@ Meu Trabalho de Conclusão de Curso em Sistemas de Informação (IFG): um **sist
 ## 📊 Estatísticas
 
 <p align="center">
-  <img src="metrics.calendar.svg" alt="Calendário 3D de contribuições do último ano" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="snake-light.svg" />
+    <img src="snake-dark.svg" alt="Cobrinha percorrendo o calendário de contribuições do último ano" />
+  </picture>
 </p>
 
 <p align="center">
