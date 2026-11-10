@@ -62,6 +62,40 @@ docker compose up --build -d   # sobe tudo: 5 APIs + PostgreSQL + RabbitMQ + Cas
 
 ---
 
+## 🎓 TCC — Veritas: análise de documentos jurídicos com LLM e RAG
+
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-F2C811)
+![ASP.NET Core 8](https://img.shields.io/badge/ASP.NET%20Core-8-512BD4?logo=dotnet&logoColor=white)
+![React](https://img.shields.io/badge/React-TypeScript-61DAFB?logo=react&logoColor=black)
+![pgvector](https://img.shields.io/badge/PostgreSQL-pgvector-4169E1?logo=postgresql&logoColor=white)
+![LLM](https://img.shields.io/badge/LLM-Gemini%20%7C%20OpenAI%20%7C%20Anthropic-8E75B2)
+
+Meu Trabalho de Conclusão de Curso em Sistemas de Informação (IFG): um **sistema web de gestão jurídica** cujo núcleo é a leitura de documentos com **Inteligência Artificial**.
+
+**🎯 O problema:** escritórios de advocacia recebem petições, decisões e contratos em PDF e precisam ler, resumir, identificar o processo, anotar prazos e transcrever tudo à mão. Isso consome tempo, gera erros e espalha o conhecimento em planilhas e sistemas diferentes.
+
+**💡 A proposta:** o advogado envia o PDF e o Veritas:
+
+1. **Interpreta o documento com um LLM** e devolve uma análise estruturada: tipo da peça, resumo, pedidos, fundamentos, decisões, valores, riscos, partes e prazos;
+2. **Identifica o número do processo** no padrão CNJ (com validação do dígito verificador) e vincula o documento ao processo certo;
+3. **Sugere andamentos e prazos**, que o advogado **confirma antes de qualquer gravação** (*human-in-the-loop*, para lidar com o risco de alucinação da IA);
+4. **Indexa o conteúdo em vetores** (embeddings no pgvector), permitindo perguntar em linguagem natural a um **assistente com RAG** que responde com base nos documentos do próprio escritório.
+
+**⚙️ Como está sendo feito**
+
+| Tema | Abordagem |
+|---|---|
+| Arquitetura | Camadas inspiradas em **Clean Architecture** e **DDD**; backend **ASP.NET Core 8**, frontend **React + TypeScript**, tudo em **Docker** |
+| Multi-escritório | Um **schema por escritório** no PostgreSQL, autenticação **JWT em cookie HttpOnly** e perfis de acesso |
+| IA | Abstração única de LLM: troca entre **Gemini, OpenAI ou Anthropic** por configuração, sem mudar os casos de uso; prompts com esquema JSON e temperatura baixa |
+| RAG | Fragmentação do texto jurídico, embeddings de 768 dimensões, busca por similaridade de cosseno e respostas em *streaming*; indexação em segundo plano com fila e novas tentativas |
+| Segurança e LGPD | Auditoria de acesso e alterações, chaves de IA cifradas com **AES-256-GCM** |
+| Avaliação (próxima etapa) | Teste com 50 documentos públicos ou anonimizados, medindo **precisão, revocação e F1** da extração e o tempo economizado em relação à triagem manual |
+
+> 🔒 O código é privado por enquanto, por ser um trabalho acadêmico em andamento. A defesa está prevista para 2027.
+
+---
+
 ## 📂 Outros projetos
 
 | Projeto | Descrição | Stack |
