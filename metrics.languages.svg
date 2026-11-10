@@ -21,12 +21,11 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="180.39105873941446" height="8" fill="#7355dd"/>
-                    <rect mask="url(#languages-bar)" x="180.39105873941446" y="0" width="146.94000150639826" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="327.33106024581275" y="0" width="131.13748357295182" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="458.46854381876454" y="0" width="1.0582380311599604" height="8" fill="#4F5D95"/>
-                    <rect mask="url(#languages-bar)" x="459.5267818499245" y="0" width="0.3376288167241684" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="459.86441066664867" y="0" width="0.1355893333513202" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="180.52355864266525" height="8" fill="#7355dd"/>
+                    <rect mask="url(#languages-bar)" x="180.52355864266525" y="0" width="147.04793111288387" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="327.57148975554907" y="0" width="131.2338059960663" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="458.8052957516154" y="0" width="1.0590153226605747" height="8" fill="#4F5D95"/>
+                    <rect mask="url(#languages-bar)" x="459.864311074276" y="0" width="0.13568892572400446" height="8" fill="#3572A5"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -38,7 +37,7 @@
                                 C#
                             </div>
                             <small>
-                                <div>39.22%</div>
+                                <div>39.24%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -49,18 +48,18 @@
                                 JavaScript
                             </div>
                             <small>
-                                <div>28.51%</div>
+                                <div>28.53%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#012456" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                PowerShell
+                                Python
                             </div>
                             <small>
-                                <div>0.07%</div>
+                                <div>0.03%</div>
                             </small>
                         </div>
                     </section>
@@ -73,7 +72,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>31.94%</div>
+                                <div>31.97%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -85,17 +84,6 @@
                             </div>
                             <small>
                                 <div>0.23%</div>
-                            </small>
-                        </div>
-                        <div class="field language details">
-                            <div class="field">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#3572A5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
-                                </svg>
-                                Python
-                            </div>
-                            <small>
-                                <div>0.03%</div>
                             </small>
                         </div>
                     </section>
