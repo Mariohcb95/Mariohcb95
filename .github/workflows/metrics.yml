@@ -22,24 +22,41 @@ jobs:
   metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Visão geral e calendário de contribuições
+      - name: Calendário 3D de contribuições
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          filename: metrics.general.svg
+          filename: metrics.calendar.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: ${{ github.ref_name }}
           user: Mariohcb95
           template: classic
-          base: header, activity, community, repositories
-          repositories_affiliations: owner
+          base: ""
           config_timezone: America/Sao_Paulo
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
+
+      - name: Linhas de código ao longo do tempo
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
+        with:
+          filename: metrics.lines.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: ${{ github.ref_name }}
+          user: Mariohcb95
+          template: classic
+          base: ""
+          repositories_affiliations: owner
+          config_timezone: America/Sao_Paulo
+          plugin_lines: yes
+          plugin_lines_sections: history
+          plugin_lines_history_limit: 1
+          plugin_lines_delay: 30
 
       - name: Linguagens mais usadas
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
           filename: metrics.languages.svg
           token: ${{ secrets.METRICS_TOKEN }}
+          committer_branch: ${{ github.ref_name }}
           user: Mariohcb95
           template: classic
           base: ""
@@ -49,4 +66,4 @@ jobs:
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_limit: 6
-          plugin_languages_ignored: html, css, scss, dockerfile, shell, batchfile
+          plugin_languages_ignored: html, css, scss, dockerfile, shell, batchfile, powershell
