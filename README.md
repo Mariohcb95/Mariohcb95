@@ -141,11 +141,12 @@ Meu Trabalho de Conclusão de Curso em Sistemas de Informação (IFG): um **sist
 ## 📊 Estatísticas
 
 <p align="center">
-  <img src="metrics.general.svg" alt="Atividade no GitHub e calendário de contribuições" />
+  <img src="metrics.calendar.svg" alt="Calendário 3D de contribuições do último ano" />
 </p>
 
 <p align="center">
-  <img src="metrics.languages.svg" alt="Linguagens mais usadas" />
+  <img src="metrics.lines.svg" alt="Linhas de código adicionadas e removidas ao longo do tempo" width="49%" />
+  <img src="metrics.languages.svg" alt="Linguagens mais usadas" width="49%" />
 </p>
 
 <p align="center"><sub>Inclui projetos privados. Atualizado automaticamente todos os dias.</sub></p>
