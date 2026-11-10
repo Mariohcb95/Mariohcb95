@@ -141,9 +141,14 @@ Meu Trabalho de Conclusão de Curso em Sistemas de Informação (IFG): um **sist
 ## 📊 Estatísticas
 
 <p align="center">
-  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Mariohcb95&theme=github_dark" alt="Estatísticas do GitHub" />
-  <img height="170em" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Mariohcb95&theme=github_dark" alt="Linguagens com mais commits" />
+  <img src="metrics.general.svg" alt="Atividade no GitHub e calendário de contribuições" />
 </p>
+
+<p align="center">
+  <img src="metrics.languages.svg" alt="Linguagens mais usadas" />
+</p>
+
+<p align="center"><sub>Inclui projetos privados. Atualizado automaticamente todos os dias.</sub></p>
 
 ---
 
